@@ -1,0 +1,123 @@
+*{
+  margin: 0%;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+
+nav {
+    background-color: #dbd8da;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+  .logo{
+    color: orange;
+    margin-left: 50px;
+    font-weight: bold;
+    width: 40%;
+  }
+
+
+  .navbar{
+    width: 60%;
+  }
+    
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 60%;
+  }
+  
+  nav ul li a:hover {
+    color: #f79f24;
+  }
+  
+  .center {
+    width: 100%;
+    height: 600px;
+  }
+
+  .content{
+    padding-left: 20px;
+    background-color: #dbd8da;
+    width: 100%;
+  }
+
+
+  .main{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .desert{
+    height: 300px;
+    align-items: center;
+  }
+
+  h1{
+    color: orange;
+  }
+
+
+  footer {
+    background-color: orange;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 2% 10%;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  footer ul {
+    display: flex;
+    list-style: none;
+
+}
+
+footer li {
+  margin: 0 10px;
+
+}
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .icons{
+    font-size: 200%;
+    color: white;
+    padding-bottom: 7%;
+    padding-left: 10%;
+  }
+
+  .icon_text{
+    font-size: 120%;
+  }
+
+  
+
+
